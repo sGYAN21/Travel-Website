@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour and Travel Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+
+  <!--=============== header Start -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#"><img src="images/logo2.png" alt="logo"></a>
+        </div>
+        <ul>
+          <div class="btn">
+            <i class="fas fa-times close-btn"></i>
+          </div>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="signup-register">
+          <button type="button" class="btn-register">Register</button>
+          <button type="button" class="btn-signup">Sign Up</button>
+        </div>
+        <div class="btn">
+          <i class="fas fa-bars menu-btn" onClick="hideButton(this)"></i>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!--=============== header close -->
+  <!-- ================ showCase start -->
+  <main>
+    <div class="slide-container swiper">
+      <div class="slide-content swiper-wrapper">
+        <div class="overlay swiper-slide">
+          <img src="images/01_pramid.jpg" alt="images">
+          <div class="img-overlay">
+            <p>Let's Travel the World with us</p>
+            <h2><span>Discover</span>The World</h2>
+            <h2>With Our Guide</h2>
+          </div>
+        </div>
+        <div class="overlay swiper-slide">
+          <img src="images/02_Christ.jpg" alt="images">
+          <div class="img-overlay">
+            <p>Let's Travel the World with us</p>
+            <h2><span>Discover</span>The World</h2>
+            <h2>With Our Guide</h2>
+          </div>
+        </div>
+        <div class="overlay swiper-slide">
+          <img src="images/03_Romen.jpg" alt="images">
+          <div class="img-overlay">
+            <p>Let's Travel the World with us</p>
+            <h2><span>Discover</span>The World</h2>
+            <h2>With Our Guide</h2>
+          </div>
+        </div>
+        <div class="overlay swiper-slide">
+          <img src="images/04_Taj_mahal.jpg" alt="images">
+          <div class="img-overlay">
+            <p>Let's Travel the World with us</p>
+            <h2><span>Discover</span>The World</h2>
+            <h2>With Our Guide</h2>
+          </div>
+        </div>
+        <div class="overlay swiper-slide">
+          <img src="images/05_Great_wall.jpg" alt="images">
+          <div class="img-overlay">
+            <p>Let's Travel the World with us</p>
+            <h2><span>Discover</span>The World</h2>
+            <h2>With Our <span>Travel</span></h2>
+          </div>
+        </div>
+        <div class="overlay swiper-slide">
+          <img src="images/07_Petra_Jordan.jpg" alt="images">
+          <div class="img-overlay">
+            <p>Let's Travel the World with us</p>
+            <h2><span>Discover</span>The World</h2>
+            <h2>With Our Guide</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================showCase end -->
+
+  <!-- ================Search Location Start -->
+  <section id="location-search">
+    <div class="container">
+      <div class="form-wrapper">
+        <form action="#">
+          <input type="text" placeholder="Where to?" class="form-control">
+          <select class="form-control">
+            <option value="Destionation">Destination</option>
+            <option value="Destionation">Greese</option>
+            <option value="Destionation">Londan</option>
+            <option value="Destionation">Maldvies</option>
+            <option value="Destionation">Paris</option>
+          </select>
+          <select class="form-control">
+            <option value="Duration">Duration</option>
+            <option value="day-1">1 Day Tour</option>
+            <option value="2-4 Days">2-4 Days Tour</option>
+            <option value="5-7 Days ">5-7 Days Tour</option>
+            <option value="7+ Days Tour">7+ Days Tour</option>
+          </select>
+          <button type="button" class="primary-btn">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================Search Location end -->
+  <!--  ========about -->
+
+
+  <section id="about">
+    <div class="container">
+      <div class="about-content-wrapper">
+        <div class="agency-left-side">
+          <p class="heading-normal-txt">
+            THE BEST TRAVEL AGENCY
+          </p>
+          <h2 class="headings">
+            DISCOVER THE <span>WORLD</span>
+            WITH OUR GUIDE
+          </h2>
+          <p class="lead">
+            You can choose any country with good tourism. The agency emphasizes the importance of a well-organized and
+            effective travel experience. It focuses on ensuring a smooth journey.</p>
+          <p>
+            <br>
+            The hotel is excellent, offering a great environment with easy access, providing a comfortable and enjoyable
+            stay. It also emphasizes the importance of a well-organized and effective service.
+          </p>
+          <ul>
+            <li>
+              <div class="icons">
+                <i class="fa fa-check"></i>
+                <p>20 Year of Experience</p>
+              </div>
+            </li>
+            <li>
+              <div class="icons">
+                <i class="fa fa-check"></i>
+                <p>150+ Tours Destination</p>
+              </div>
+            </li>
+            <li>
+              <div class="icons">
+                <i class="fa fa-check"></i>
+                <p>855 333 4444</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="agency-right-side">
+          <div class="img">
+            <img src="./images/about.jpg" alt="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========== about close -->
+  <!--========== Chose your place  start-->
+  <section id="choose-place">
+    <div class="container">
+      <p class="heading-normal-txt">CHOOSE YOUR PLACE</p>
+      <h2 class="headings">POPULAR <span>TOURS</span> </h2>
+      <div class="choose-wrapper">
+        <div class="img-left-side">
+          <div class="lg-img">
+            <img src="./images/maldives.jpg" alt="image">
+            <div class="img-content">
+              <h2>Maldives Tours</h2>
+              <div class="hidden-content">
+                <span><i class="fa fa-clock"></i>10 Days</span>
+                <span><i class="fa fa-user"></i>12+</span>
+                <span><i class="fa fa-location-dot"></i> Maldives</span>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>₹50,000/-</p>
+            </div>
+          </div>
+        </div>
+        <div class="img-right-side">
+          <div class="lg-img">
+            <img src="./images/italy.jpg" alt="image">
+            <div class="img-content">
+              <h2>Italy Tours</h2>
+              <div class="hidden-content">
+                <span><i class="fa fa-clock"></i> 10 Days</span>
+                <span><i class="fa fa-user"></i>12+</span>
+                <span><i class="fa fa-location-dot"></i> Italy</span>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>₹1,20,000/-</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- row wise images -->
+      <div class="row-wise-img">
+        <!--       <div class="lg-img">
+          <img src="./images/france.jpg" alt="image">
+          <div class="img-content">
+            <h2>France Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>France</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹2,00,000/-</p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/greece.jpg" alt="image">
+          <div class="img-content">
+            <h2>Greece Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Greece</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹1,20,000/-</p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/dubai.jpg" alt="image">
+          <div class="img-content">
+            <h2>Dubai Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Dubai</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹1,00,000/-</p>
+          </div>
+        </div> -->
+        <div class="lg-img">
+          <img src="./images/manali.jpg" alt="image">
+          <div class="img-content">
+            <h2>Manali Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Manali</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹6,000/- </p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/rajasthan.jpg" alt="image">
+          <div class="img-content">
+            <h2>Rajasthan Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Rajasthan</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹9,000/- </p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/kerela.jpg" alt="image">
+          <div class="img-content">
+            <h2>Kerala Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Kerala</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹10,000/- </p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/canada.jpg" alt="image">
+          <div class="img-content">
+            <h2>Canada Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Canada</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹1,50,000/- </p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/golden_temple.jpg" alt="image">
+          <div class="img-content">
+            <h2>Punjab Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Golden Temple</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹50000</p>
+          </div>
+        </div>
+        <div class="lg-img">
+          <img src="./images/mumbai.jpg" alt="image">
+          <div class="img-content">
+            <h2>Mumbai Tours</h2>
+            <div class="hidden-content">
+              <span><i class="fa fa-clock"></i> 10 Days</span>
+              <span><i class="fa fa-user"></i>12+</span>
+              <span><i class="fa fa-location-dot"></i>Mumbai</span>
+            </div>
+          </div>
+          <div class="price-label">
+            <p>₹50000/-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--========== Chose your place end-->
+  <!-- =========== static counter Numbers Start -->
+  <section id="static-counter">
+    <div class="container">
+      <div class="static-wrapper">
+        <div class="static-icons">
+          <i class="fa fa-plane-departure"></i>
+          <p class="numbers" data-ceil="600">600</p>
+          <p class="txt">Flight Booking</p>
+        </div>
+        <div class="static-icons">
+          <i class="fa fa-home"></i>
+          <p class="numbers" data-ceil="250">250</p>
+          <p class="txt">Amazing Tour</p>
+        </div>
+        <div class="static-icons">
+          <i class="fa fa-ship"></i>
+          <p class="numbers" data-ceil="100">100</p>
+          <p class="txt">Cruises Booking</p>
+        </div>
+        <div class="static-icons">
+          <i class="fa fa-ticket"></i>
+          <p class="numbers" data-ceil="50">50</p>
+          <p class="txt">Ticket Bookings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =========== static counter Numbers End-->
+
+  <!-- =========== Top Destination Start-->
+  <section id="top-destination">
+    <div class="container">
+      <p class="heading-normal-txt">TOP DESTINATION</p>
+      <h2 class="headings">POPULAR <span> DESTINATION</span></h2>
+      <div class="top-destination-wrapper swiper2">
+        <div class="swiper-wrapper">
+          <div class="carousel swiper-slide">
+            <img src="./images/01_top_destination_eiffel_Tower.jpg" alt="">
+            <div class="img-content">
+              <h2><i class="fa fa-location-dot"></i>France</h2>
+              <div class="hidden-content-carousel">
+                <span>4 Tours Packages</span>
+                <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>15% Off</p>
+            </div>
+          </div>
+          <div class="carousel swiper-slide">
+            <img src="./images/02_top_destination_bhurj_khalifa.jpg" alt="image">
+            <div class="img-content">
+              <h2><i class="fa fa-location-dot"></i>Dubai</h2>
+              <div class="hidden-content-carousel">
+                <span>5 Tours Packages</span>
+                <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>₹70000/-</p>
+            </div>
+          </div>
+          <div class="carousel swiper-slide">
+            <img src="./images/03_top_destination_canada.jpg" alt="image">
+            <div class="img-content">
+              <h2><i class="fa fa-location-dot"></i>Canada</h2>
+              <div class="hidden-content-carousel">
+                <span>10 Tours Packages</span>
+                <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>New</p>
+            </div>
+          </div>
+          <div class="carousel swiper-slide">
+            <img src="./images/04_top_destination_greece.jpg" alt="">
+            <div class="img-content">
+              <h2><i class="fa fa-location-dot"></i>Greee</h2>
+              <div class="hidden-content-carousel">
+                <span>4 Tours Packages</span>
+                <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>25% Off</p>
+            </div>
+          </div>
+          <div class="carousel swiper-slide">
+            <img src="./images/05_top_destination_pyramid.jpg" alt="">
+            <div class="img-content">
+              <h2><i class="fa fa-location-dot"></i>Egypt</h2>
+              <div class="hidden-content-carousel">
+                <span>4 Tours Packages</span>
+                <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>45% Off</p>
+            </div>
+          </div>
+          <div class="carousel swiper-slide">
+            <img src="./images/06_top_destination_taj_mahal.jpg" alt="">
+            <div class="img-content">
+              <h2><i class="fa fa-location-dot"></i>India</h2>
+              <div class="hidden-content-carousel">
+                <span>4 Tours Packages</span>
+                <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>15% Off</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- =========== Top Destination End-->
+
+  <!--  =========== video Background Costa Victorial start-->
+  <section id="costa-victoria">
+    <div class="video-bg">
+      <video autoplay muted loop preload="auto">
+        <source src="./images/Yacht.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="container">
+      <div class="video-content">
+        <h2>Costa Victorial Cochin</h2>
+        <span><i class="fa fa-clock"></i> 10 Days</span>
+        <span><i class="fa fa-user"></i> 12+ </span>
+        <span><i class="fa fa-user"></i> Canada</span>
+      </div>
+    </div>
+
+  </section>
+  <!--  =========== video Background Costa Victorial end -->
+
+  <!-- ============travel countries   start -->
+  <section id="travel-countries">
+    <div class="container">
+      <P class="heading-normal-txt">MOST POPULAR</P>
+      <h2 class="headings">TRAVEL <span>COUNTRIES</span></h2>
+
+      <!-- ITALY -->
+      <div class="travel-countries-wrapper">
+        <div class="countries-content">
+          <h class="secondary-headings">ITALY, EUROPE</h2>
+            <p class="lead">
+              We provide you with interesting and exciting tours to different parts of the world. Explore amazing
+              destinations and create unforgettable memories with us.
+            </p>
+            <ul>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Rome</li>
+                <li><i class="fa fa-location-dot"></i>Venice</li>
+                <li><i class="fa fa-location-dot"></i>San Marino</li>
+              </div>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Milan</li>
+                <li><i class="fa fa-location-dot"></i>Florence</li>
+                <li><i class="fa fa-location-dot"></i>Parma</li>
+              </div>
+              <div class="country-names">
+                <li><i class="fa fa-location-dot"></i>Verona</li>
+                <li><i class="fa fa-location-dot"></i>Perugia</li>
+                <li><i class="fa fa-location-dot"></i>Aosta</li>
+              </div>
+            </ul>
+            <button type="button" class="primary-btn">All Tours <i class="fa fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="slider-content-wrapper swiper3">
+          <div class="swiper-wrapper">
+            <div class="carousel swiper-slide">
+              <img src="./images/01_popular_city_Romejpg.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Rome</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/02_popular_city_Venice.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Venice</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/03_popular_city_San_marino.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>San Marino</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/04_popular_city_Milan.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Milan</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/05_popular_city_Florence.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Florence</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/06_popular_city_Parma.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Parma</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/07_popular_city_Verona.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Verona</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/08_popular_city_Perugia.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Perugia</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+            <div class="carousel swiper-slide">
+              <img src="./images/09_popular_city_Aosta.jpg" alt="image">
+              <div class="img-content">
+                <h2></i>Aosta</h2>
+                <div class="hidden-content-carousel">
+                  <span>5 Tours Packages</span>
+                  <a href="#"><span>Explore</span><i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="price-label">
+                <p>₹70000/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============travel countries   end-->
+
+  <!-- Travel Blogs start-->
+  <section id="travel-blog">
+    <div class="container">
+      <p class="heading-normal-txt">TRAVEL BLOG</p>
+      <h2 class="headings">TRAVEL <span>EXPERINCE</span></h2>
+      <div class="top-destination-wrapper swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide blog">
+            <img src="./images/01_travel_blog_usa.jpg" alt="">
+            <div class="blog-img-overlay">
+              <div class="blog-img-content">
+                <h2>Tours</h2>
+                <p class="lead">
+                  Small Group Tours with Flights From USA
+                </p>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>10 Jan</p>
+            </div>
+          </div>
+          <div class="swiper-slide blog">
+            <img src="./images/02_travel_blog_dubai.jpg" alt="">
+            <div class="blog-img-overlay">
+              <div class="blog-img-content">
+                <h2>Tours</h2>
+                <p class="lead">
+                  Small Group Tours with Flights From USA
+                </p>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>05 Dec</p>
+            </div>
+          </div>
+          <div class="swiper-slide blog">
+            <img src="./images/03_travel_blog_Egypt.jpg" alt="">
+            <div class="blog-img-overlay">
+              <div class="blog-img-content">
+                <h2>Tours</h2>
+                <p class="lead">
+                  Small Group Tours with Flights From USA
+                </p>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>12 Mar</p>
+            </div>
+          </div>
+          <div class="swiper-slide blog">
+            <img src="./images/04_travel_blog_India.jpg" alt="">
+            <div class="blog-img-overlay">
+              <div class="blog-img-content">
+                <h2>Tours</h2>
+                <p class="lead">
+                  Small Group Tours with Flights From USA
+                </p>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>08 Apr</p>
+            </div>
+          </div>
+          <div class="swiper-slide blog">
+            <img src="./images/05_travel_blog_antarctica.jpg" alt="">
+            <div class="blog-img-overlay">
+              <div class="blog-img-content">
+                <h2>Tours</h2>
+                <p class="lead">
+                  Small Group Tours with Flights From USA
+                </p>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>05 Dec</p>
+            </div>
+          </div>
+          <div class="swiper-slide blog">
+            <img src="./images/06_travel_blog_Australia.jpg" alt="">
+            <div class="blog-img-overlay">
+              <div class="blog-img-content">
+                <h2>Tours</h2>
+                <p class="lead">
+                  Small Group Tours with Flights From USA
+                </p>
+              </div>
+            </div>
+            <div class="price-label">
+              <p>05 Dec</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Travel Blogs end-->
+  <!-- =============testimonials start-->
+  <section id="testimonials">
+    <div class="container">
+      <p class="heading-normal-txt review">TRAVEL Blog</p>
+      <p class="headings">TRAVEL EXPERINCE</p>
+      <div class="testimonials-wrapper swiper4">
+        <div class="swiper-wrapper">
+          <div class="testimonials-content swiper-slide">
+            <div class="left-side-blog">
+              <p class="lead">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem maxime asperiores numquam repellat
+                a,
+                aut aperiam ullam, possimus nulla molestiae iusto, fugit nam ad! Et eligendi libero ipsam molestiae!
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+            <div class="right-side-blog">
+              <div class="test-img">
+                <img src="./images/01_blog_profile.jpg" alt="">
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p> Laura Lance</p>
+                <p class="guest">Guest Review</p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="testimonials-content swiper-slide">
+            <div class="left-side-blog">
+              <p class="lead">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem maxime asperiores numquam repellat
+                a,
+                aut aperiam ullam, possimus nulla molestiae iusto, fugit nam ad! Et eligendi libero ipsam
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+            </div>
+            <div class="right-side-blog">
+              <div class="test-img">
+                <img src="./images/02_blog_profile.jpg" alt="">
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <p>John Diggle</p>
+                <p class="guest">Guest Review</p>
+              </div>
+            </div>
+          </div>
+        <div class="testimonials-content swiper-slide">
+          <div class="left-side-blog">
+            <p class="lead">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem maxime asperiores numquam repellat
+              a,
+              aut aperiam ullam, possimus nulla molestiae iusto, fugit nam ad! Et eligendi libero ipsam molestiae!
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="right-side-blog">
+            <div class="test-img">
+              <img src="./images/03_blog_profile.jpg" alt="">
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>Robert Queen</p>
+              <p class="guest">Guest Review</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-content swiper-slide">
+          <div class="left-side-blog">
+            <p class="lead">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quidem maxime asperiores numquam repellat a,
+              aut aperiam ullam, possimus nulla molestiae iusto, fugit nam ad! Et eligendi libero ipsam molestiae!
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="right-side-blog">
+            <div class="test-img">
+              <img src="./images/04_blog_profile.jpg" alt="">
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>Felicity Smoak</p>
+              <p class="guest">Guest Review</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!-- ================testimonials end-->
+  <!-- ====================footer start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="ft-content">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="content">
+            <p class="lead">Call us</p>
+            <p>+91 6432176890</p>
+          </div>
+        </div>
+        <div class="ft-content">
+          <div class="icon">
+            <i class="fa fa-envelope-open"></i>
+          </div>
+          <div class="content">
+            <p class="lead">Write for us</p>
+            <p>yagamilight5879@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="ft-content">
+          <div class="icon">
+            <i class="fa fa-map-location"></i>
+          </div>
+          <div class="content">
+            <p class="lead">Address</p>
+            <p>New Delhi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================footer end -->
+    <!-- ======================footer Content 2nd Section start -->
+
+    <div class="footer-wrapper">
+      <div class="about">
+        <div class="img-logo">
+          <img src="./images/logo2.png" alt="">
+        </div>
+        <p class="lead">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos iusto eos eaque dolore quibusdam. Suscipit esse
+          velit molestias voluptate vitae.
+        </p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="links">
+        <h2>Quick links</h2>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+      <div class="subscribe">
+        <h2>Subscribe</h2>
+        <p class="lead">Signup for our monthy blog letter to stay informed about travel and tours.
+        </p>
+        <form action="#">
+          <input type="text" placeholder="Email Address">
+          <button type="button" class="button">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- ======================footer Content 2nd Section end -->
+    <div class="footer">
+      <p>
+        &copy; 2023 Your Travel Website. All Rights Reserved
+      </p>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="scripts/index.js"></script>
+  <script src="scripts/swiper.js"></script>
+</body>
+
+</html>
